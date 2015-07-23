@@ -22,7 +22,7 @@ This plugin ensures that all posts will always be in the default category. Whene
 
 == Frequently Asked Questions ==
 
-= Why would you want to put all plugins in the default category? =
+= Why would you want to put all posts into the default category? =
 
 One reason is to rename the default category to "All" and ensure that all posts will always be in that category.
 

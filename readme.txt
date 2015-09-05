@@ -38,3 +38,6 @@ Go to Dashboard->Posts->Categories. Edit the first category, this is the categor
 
 = 1.0 =
 * First stable release
+
+= 1.1 =
+* Made a change to detect default category instead of assuming default category id of '1'

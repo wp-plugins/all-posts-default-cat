@@ -1,7 +1,7 @@
 <?php
 /**
  * @package all-posts-default-cat
- * @version 1.0
+ * @version 1.1
  */
 /*
 Plugin Name: All Posts Default Category

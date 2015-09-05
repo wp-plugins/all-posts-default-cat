@@ -13,14 +13,17 @@ Version: 1.0
 add_action('save_post', 'add_all_posts_to_default_category');
 
 function add_all_posts_to_default_category() {
+  // Determine default category id
+  $default_category = get_option('default_category');
+
   // Get all posts not currently in the default category
-  $args = array('category' => -1);
+  $args = array('category' => -$default_category);
   $posts = get_posts($args);
   
   // For each post
   foreach($posts as $post) : setup_postdata($post);
     // Append the default category to the post's categories 
-    wp_set_post_categories($post->ID, 1, 1);
+    wp_set_post_categories($post->ID, $default_category, 1);
   endforeach;
 }
 

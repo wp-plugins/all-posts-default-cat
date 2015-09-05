@@ -7,7 +7,7 @@
 Plugin Name: All Posts Default Category
 Description: This plugin ensures that all posts will always be in the default category. Whenever any post is saved, all posts not currently in the default category are put in the default category. For example, by renaming the default category 'All' you always have a category containing all posts.
 Author: Jake Stookey
-Version: 1.0
+Version: 1.1
 */
 
 add_action('save_post', 'add_all_posts_to_default_category');
